@@ -22,10 +22,73 @@
 .tigre{
   background-image: url(../images/slider/bg1.jpg);
   background-repeat: no-repeat;
-  background-size: cover; 
- width: 100%;
- height: 500px;
+  background-size: 1250px; 
 padding: 15% 20% 10% 5%; 
+
+background-position: center;
+
+}
+.circulo{
+	background-color: #2AA597;
+}
+#pag{
+display: inline-block;
+
+background-color: silver;
+width: 100%;
+}
+#home2{
+	background-color:#46A262 ;
+padding: 7%;
+color: white;
+}
+
+#rs{
+	background-color: #46A262 ;
+	font-size: 300% 
+}
+
+#home3{
+	padding: 7%;
+}
+.fa{
+	font-size: 300%;
 }
 
 
+
+
+
+
+
+
+
+@media screen and (max-width : 667px) {
+  .container-fluid{
+    width: 100%;
+  }
+ 
+  .img{
+    width:100%;
+  }
+  
+  .col-md-4, .col-md-12, .col-md-5, .col-md-3{
+    width: 100%;
+  } 
+}
+
+@media (min-width: 668px) and  (max-width: 1024px) {
+  .container-fluid{
+    width: 100%;
+  }
+  .img{
+    width:100%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px){
+  .container-fluid{
+    width: 100%;
+
+  }
+}
