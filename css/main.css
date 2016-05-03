@@ -13,3 +13,7 @@
 .clearfix:after {
   clear: both;
 }
+
+.fa{
+	font-size: 20px;
+}
