@@ -19,11 +19,12 @@
 	padding:1%;
 }
 
-.tigre{
+.banner{
   background-image: url(../images/slider/bg1.jpg);
   background-repeat: no-repeat;
-  background-size: 1250px; 
+  background-size: 1300px; 
 padding: 15% 20% 10% 5%; 
+color: white;
 
 background-position: center;
 
@@ -51,11 +52,75 @@ color: white;
 #home3{
 	padding: 7%;
 }
-.fa{
-	font-size: 300%;
+
+}
+#homenar{
+	text-align: center;
+	color:white;
+	padding:3%;
+}
+#anaran{
+	background-color: #D94530;
+}
+#compac{
+	padding:2%;
+	color: white;
+}
+#super{
+	background-color:#002337;
+}
+#ult{
+	background-color:  #003566;
+	color: silver;
+	padding:5%;
+}
+#ult1{
+	background-color: #002337;
+	color: silver;
+	padding-top: 2%;
+	padding-left: 2%;
+}
+a{
+color: silver;
+}
+.navbar-toggle{
+	color:#002337;
 }
 
 
+/*1 mezclas de css de blog */
+#hi{
+	padding: 6%;
+}
+#blog1{
+background-color: #46A262;
+padding:2%;
+}
+#blogmir{
+	background-color: white;
+	height: 70%;
+
+}
+#blogejecut{
+	background-color: #E5D6FF;
+}
+#ikn{
+font-size: 15px;
+}
+ #text{
+ 	background-color: white;
+ 	padding:2%;
+ }
+
+#descolor{
+	background-color: #E5D6FF;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*! no funciona por revisar*/
 
 
 

@@ -22,70 +22,51 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
   </head>
   <body>
-    <!-- Menú creado reemplazar por el de Dorys... 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <a class="navbar-brand" href="#"> 
-                    <img src="images/logo.png" alt="logo">
-                </a>
-                <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation" class="active"><a href="#">Home</a></li>
-                    <li role="presentation"><a href="#">Profile</a></li>
-                    <li role="presentation"><a href="#">Messages</a></li>
-                    <li role="presentation"><a href="#">Messages</a></li>
-                    <li role="presentation"><a href="#">Messages</a></li>
-                    <li role="presentation"><a href="#">Messages</a></li>
-                </ul>
-            </div>
-        </div>
-    </div><-->
-<!--header dorys-->
-    <header>
-    <div class="container-fluid">
+
+<!--header dorys modificado carla -->
+<header>
+    <div class="container-fluid" id="super">
       <div class="row">
         <div class="col-md-12">
-          <nav class="navbar">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Desplegar navegación</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <img class="navbar-brand" src="images/logo.png">
+            <nav class="navbar">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Desplegar navegación</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <img class="navbar-brand" src="images/logo.png">
+                </div>
+                    <div class="collapse navbar-collapse navbar-ex1 collapse navbar-right">
+                          <ul class="nav navbar-nav">
+                            <li>
+                              <a href="#">Inicio</a>
+                            </li>
+                            <li>
+                             <a href="#">Sobre Nosotros</a>
+                            </li>
+                            <li>
+                              <a href="#">Servicios</a>
+                            </li>
+                            <li>
+                              <a href="#">Portafolio</a>
+                            </li>              
+                            <li>
+                             <a href="#">Blog</a>
+                            </li>
+                            <li class="active">
+                              <a href="#">Contactanos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1 collapse navbar-right">
-              <ul class="nav navbar-nav">
-                <li>
-                  <a href="#">Inicio</a>
-                </li>
-                <li>
-                 <a href="#">Sobre Nosotros</a>
-                </li>
-                <li>
-                  <a href="#">Servicios</a>
-                </li>
-                <li>
-                  <a href="#">Portafolio</a>
-                </li>              
-                <li>
-                 <a href="#">Blog</a>
-                </li>
-                <li class="active">
-                  <a href="#">Contactanos</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
         </div>
-      </div>
     </div>  
-  </header>
-  
-
-
-<section class="tigre">
+</header>
+<!--seccion carla tigre-->
+<section class="banner">
         <div class="row">
             <div class="col-xs-12">
                 <h1>Powerful and responsive Web Design</h1>
@@ -93,8 +74,7 @@
             </div>
         </div>
 </section>
-
-     
+     <!--primersa seccion home2 redes sociales-->
 <div class="container-fluid" id="home2">
     <div class="row" >
         <div class="col-md-4">
@@ -111,7 +91,7 @@
         <div class="col-md-4">
             <ul class="media-list">
                 <li class="media">
-                    <a class="pull-left" href="#"><i class="fa fa-facebook" aria-hidden="true" class="rs"></i></a>
+                    <a class="pull-left" href="#"><i class="fa fa-facebook" aria-hidden="true" id="rs"></i></a>
                     <div class="media-body">
                         <h4 class="media-heading">Facebook Marketing</h4>
                         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum totor quam, feurgiat vitae.</p>
@@ -122,7 +102,7 @@
         <div class="col-md-4">
             <ul class="media-list">
                 <li class="media">
-                    <a class="pull-left" href="#"><i class="fa fa-google-plus" aria-hidden="true" class="rs"></i></a>
+                    <a class="pull-left" href="#"><i class="fa fa-google-plus" aria-hidden="true" id="rs"></i></a>
                     <div class="media-body">
                         <h4 class="media-heading">Google Plus Marketing</h4>
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum totor quam, feurgiat vitae.</p>
@@ -132,8 +112,7 @@
         </div>
      </div>
  </div>
- 
- 
+ <!--segunda seccion home# imagenes de paginas web en el sitio -->
 <div class="container-fluid" id="home3" >
     <div class="row">
         <div class="col-md-4">
@@ -170,30 +149,46 @@
         </div>
     </div>
 </div>
-
-
-<section>
-    <div class="row">
+<!--tercera seccion solo parrafos-->
+<div class="container-fluid" id="anaran">
+    <div class="row" id="homenar">
         <div class="col-md-12">
             <h1>What or clients say</h1> 
             <h3>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egesta.</h3>  
         </div>
         <div class="row">
-            <div class="col-md-6">
-                
-            </div>
-            <div class="col-md-6">
-                
+            <div class="col-md-12">
+                <div class="row" id="compac">
+                    <div class="col-md-6" >
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer posuere erat a ante.</h4>
+                        <h6>-Someone famous in Source Title</h6>
+                    </div>
+                    <div class="col-md-6">
+                          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer posuere erat a ante.</h4>
+                        <h6>-Someone famous in Source Title</h6>
+                    </div>
+                </div>
+                <div class="row" id="compac">
+                    <div class="col-md-6">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer posuere erat a ante.</h4>
+                        <h6>-Someone famous in Source Title</h6>
+                    </div>
+                    <div class="col-md-6">
+                          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer posuere erat a ante.</h4>
+                        <h6>-Someone famous in Source Title</h6>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
-</section>
+</div>
 
 
+<!--seccion de prueba-->
 
-<!--footer dorys-->
-<section class="pre-footer">
+
+<!--footer dorys modificado carla-->
+<section class="pre-footer" id="ult">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3">
@@ -264,41 +259,43 @@
         </div>
       </div>
     </div>
-  </section>
-  <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6">
-         ©2015 ShapeBootstrap. All Rights Reserved.
-        </div>
-        <div class="col-md-6">
-          <nav class="navbar " role="navigation">
-            <div class="navbar-footer">
-              <button type="button" class="navbar-toggle" data-toggle="collapse"data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Desplegar navegación</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+</section>
+<footer>
+    <div class="container-fluid" id="ult1">
+        <div class="row" >
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">©2015 ShapeBootstrap. All Rights Reserved.</div>
+                    <div class="col-md-6">
+                        <nav class="navbar " role="navigation">
+                            <div class="navbar-footer">
+                              <button type="button" class="navbar-toggle" data-toggle="collapse"data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Desplegar navegación</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                            </div>
+                            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+                              <ul class="nav navbar-nav navbar">
+                                <li>
+                                  <a href="#">Inicio</a>
+                                </li>
+                                <li>
+                                  <a href="#">Sobre Nosotros</a>
+                                </li>
+                                <li class="dropup">
+                                  <a href="#" class="dropup-toggle" data-toggle="dropup" >Contactenos<b class="caret" ></b></a>
+                                </li>
+                              </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
-              <ul class="nav navbar-nav navbar">
-                <li>
-                  <a href="#">Inicio</a>
-                </li>
-                <li>
-                  <a href="#">Sobre Nosotros</a>
-                </li>
-                <li class="dropup">
-                  <a href="#" class="dropup-toggle" data-toggle="dropup">Contactenos<b class="caret"></b></a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
+         </div>
     </div>
-  </footer>
+</footer>
 
 
         <script src="js/jquery.js"></script>
