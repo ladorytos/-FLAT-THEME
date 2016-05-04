@@ -112,12 +112,20 @@ font-size: 15px;
  	padding:2%;
  }
 
-#descolor{
-	background-color: #E5D6FF;
+#tras{
+	background-color: silver ;
+	padding: 2%;
+	border-radius: 2%;
 }
 img {
     width: 100%;
     height: auto;
+}
+#backy{
+	background color: silver;
+}
+#asd{
+	display:inline-block;
 }
 
 /*! no funciona por revisar*/
